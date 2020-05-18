@@ -19,4 +19,4 @@ VOLUME ["${SOFT_OPT}"]
 # Expose default HTTP connector port.
 EXPOSE 8060 9996 9996/udp
 
-CMD ["/docker-entrypoint.sh"]
+CMD ["/usr/sbin/init"]
